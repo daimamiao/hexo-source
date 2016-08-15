@@ -1,6 +1,6 @@
 ---
 title: Hello World
-date: 2016-06-12 13:34:53
+date: 2015-06-12 13:34:53
 categories: 随笔
 thumbnail: http://7xveyh.com1.z0.glb.clouddn.com/1f178a82b9014a90b008c436ae773912b31bee03.jpg
 ---

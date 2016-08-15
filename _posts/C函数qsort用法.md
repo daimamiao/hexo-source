@@ -5,7 +5,7 @@ tags: C语言
 categories: C语言
 thumbnail: http://7xveyh.com1.z0.glb.clouddn.com/qsort2.png
 ---
-qsort()函数是ANSI C标准中提供的，其声明在stdlib.h文件中，是根据二分发写的，其时间复杂度为n*log(n)。<!--more-->为了了解
+qsort()函数是ANSI C标准中提供的，其声明在stdlib.h文件中，是根据二分法写的，其时间复杂度为n*log(n)。<!--more-->为了了解
 ### 排序方式
 排序方式有很多种，比如：选择排序、冒泡排序、归并排序、快速排序等等。顾名思义快速排序是目前公认的一种比较好的排序算法，其比选择排序、冒泡排序都要快。因为它的速度很快，所以系统也在库里实现这个算法，便于我们使用，这个函数就是qsort了。
 ### qsort简介
@@ -14,10 +14,15 @@ qsort的函数原型是:
 void qsort(void* base, size_t nelem, size_t width, cmp)
 ```
 其中：
+
 1. *base为要排序的数组
+
 2. nelem为要排序的数组的长度
+
 3. width为每个数组元素的大小(以字节为单位)
+
 4. cmp为自己定义的比较函数，其作用在于方便使用者实现对数组、字符串、结构体等结构进行升序或降序排列。
+
 
 ### cmp函数
 ```c
